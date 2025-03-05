@@ -35,7 +35,7 @@ function handleButtonClick(event) {
 
 function clearDisplay(){
     document.querySelector('.calculator-screen').value = "";
-}:
+};
 
 
 
