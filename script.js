@@ -3,7 +3,7 @@
 
 
 
-// Loop through all buttons
+// Loop through all buttons.
 
 document.querySelectorAll("button").forEach(button => {   
 button.addEventListener("click", handleButtonClick); 
@@ -35,7 +35,7 @@ function handleButtonClick(event) {
 
 function clearDisplay(){
     document.querySelector('.calculator-screen').value = "";
-};
+}:
 
 
 
